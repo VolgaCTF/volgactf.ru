@@ -1,0 +1,15 @@
+{
+  "name": "VolgaCTFSite",
+  "version": "1.0.0",
+  "description": "Main VolgaCTF Site",
+  "author": "Aleksey Volkov",
+  "license": "MIT",
+  "devDependencies": {
+    "bower": "^1.7.7",
+    "gulp": "^3.9.0",
+    "gulp-i18n-localize": "^1.1.0",
+    "gulp-less": "^3.0.5",
+    "gulp-plumber": "^1.0.1",
+    "gulp-util": "^3.0.7"
+  }
+}

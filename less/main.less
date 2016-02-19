@@ -1,0 +1,84 @@
+@import "colors";
+@import "mixins";
+@import "fonts";
+
+div.language-selector {
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 0;
+  .intro-condensed-light;
+  font-size: 12pt;
+  color: @main-light;
+  span.symbols {
+    font-family: sans-serif;
+  }
+  span.accent {
+    .intro-condensed-black;
+    color: @main-accent;
+  }
+}
+
+.full {
+  background: url("../img/background.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.top-pad {
+  margin-top: 50px;
+}
+
+.navbar-default {
+  background-color: @main-accent;
+  border-color: transparent;
+  padding: 20px 0;
+  .border-radius-none;
+  .navbar-brand {
+    img {
+      width: 114px;
+      height: 72px;
+      margin-top: -22px;
+    }
+  }
+  .nav {
+    li {
+      a {
+        .header-font-dark;
+        &:hover,
+        &:focus {
+          background-color: transparent;
+        }
+      }
+    }
+    li.active {
+      a {
+        background-color: transparent;
+        color: @main-dark;
+        &:hover,
+        &:focus {
+          background-color: transparent;
+          color: @main-dark;
+        }
+      }
+    }
+  }
+}
+
+.greeting {
+  .h1-font-thin;
+  padding: 0;
+  span.accent {
+    .h1-font-accent;
+  }
+}
+
+.notification-block {
+  background-color: rgba(0, 0, 0, 0.2);
+  .header-font-light;
+  ul {
+    list-style-type: none;
+  }
+}

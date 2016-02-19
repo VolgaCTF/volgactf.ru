@@ -1,6 +1,8 @@
-bower_components
+bower_components/
 node_modules/
 img/compressed
 dist/*
 logs/*
 letsencrypt/*
+.idea/
+*.iml

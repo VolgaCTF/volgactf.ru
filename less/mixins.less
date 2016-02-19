@@ -1,0 +1,55 @@
+@import "colors";
+
+.border-radius-none {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+
+.intro-condensed-black {
+  font-family: "IntroCondensedBlack", sans-serif;
+  letter-spacing: 0.5px;
+  transform: scaleY(1); /* W3C */
+  -webkit-transform: scaleY(1); /* Safari and Chrome */
+  -moz-transform: scaleY(1); /* Firefox */
+  -ms-transform: scaleY(1); /* IE 9 */
+  -o-transform: scaleY(1); /* Opera */
+}
+
+.intro-condensed-light {
+  font-family: "IntroCondensedLight", sans-serif;
+  letter-spacing: 0.5px;
+  transform: scaleY(1); /* W3C */
+  -webkit-transform: scaleY(1); /* Safari and Chrome */
+  -moz-transform: scaleY(1); /* Firefox */
+  -ms-transform: scaleY(1); /* IE 9 */
+  -o-transform: scaleY(1); /* Opera */
+}
+
+.header-font-dark {
+  .intro-condensed-black;
+  font-size: 18pt;
+  color: @main-dark;
+}
+
+.header-font-light {
+  .intro-condensed-black;
+  font-size: 18pt;
+  color: @main-light;
+}
+
+.h1-font-accent {
+  .intro-condensed-black;
+  font-size: 46pt;
+  line-height: 66pt;
+  color: @main-accent;
+}
+
+.h1-font-thin {
+  .intro-condensed-light;
+  font-size: 46pt;
+  line-height: 66pt;
+  color: @main-light;
+
+}
+
