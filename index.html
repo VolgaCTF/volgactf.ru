@@ -1,42 +1,51 @@
 <!DOCTYPE html>
 <html>
-<head lang="ru">
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-COMPATIBLE" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="VolgaCTF is an inter-regional inter-university open computer security contest"/>
-    <meta name="author" content="VolgaCTF Team"/>
-
     <title>VolgaCTF</title>
-
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/volgactf.ru.min.css" rel="stylesheet">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-    <link href='//fonts.googleapis.com/css?family=Noto+Serif&subset=latin,cyrillic' rel='stylesheet'
-          type='text/css'>
-
+    <link rel="stylesheet" href="css/style.min.css">
 </head>
-<body id="page-top" class="index">
-
-<header>
-    <div class="container">
-        <img class="logo-large" src="img/logo.svg"/>
-        <img class="center-block logo-subtitle" src="img/subtitle.svg"/>
-        <div class="announcement">
-            <p>VolgaCTF 2016 Quals</p>
-            <p>March 25 15:00 UTC - March 27 15:00 UTC</p>
-            <p>Archive: <a href="//<%- archive_url %>" target="_blank"><%- archive_url %></a> [Russian]</p>
+<body class="full">
+<div class="container">
+    <div class="row">
+        <div class="col-md-1 col-md-offset-11 col-sm-1 col-sm-offset-11 hidden-xs language-selector">
+            <span>RU</span>
+            <span class="symbols">/</span>
+            <span class="accent">EN</span>
         </div>
     </div>
-</header>
+    <div class="row">
+        <nav class="navbar navbar-default">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="/"><img src="img/logo-black.svg" alt="VolgaCTF Logo"/></a>
+            </div>
+            <div class="navbar-collapse collapse" id="navbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="/">ABOUT US</a></li>
+                    <li><a href="/">ARCHIVE</a></li>
+                    <li><a href="/">BLOG</a></li>
+                    <li><a href="/">CONTACTS</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="row top-pad">
+        <div class="col-md-6 greeting">
+            <span class="accent">HI!</span> WE DEVELOP VOLGA CTF <span class="accent">FOR U</span> ENJOY &
+            <span class="accent">PLAY</span>
+        </div>
 
-<script src="js/jquery.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
+        <div class="col-md-3 col-md-offset-3 notification-block">
+            <ul>
+                <li>VOLGACTF 2016 QUALS REGISTRATION IS <a href="https://2016.volgactf.ru">OPENED</a></li>
+            </ul>
+        </div>
+
+    </div>
+
+
+</div>
 </body>
 </html>
