@@ -1,281 +1,258 @@
 .border-radius-none {
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
 }
-
 .intro-condensed-black {
-    font-family: "IntroCondensedBlack", sans-serif;
-    letter-spacing: 0.5px;
-    transform: scaleY(1);
-    /* W3C */
-    -webkit-transform: scaleY(1);
-    /* Safari and Chrome */
-    -moz-transform: scaleY(1);
-    /* Firefox */
-    -ms-transform: scaleY(1);
-    /* IE 9 */
-    -o-transform: scaleY(1);
-    /* Opera */
+  font-family: "IntroCondensedBlack", sans-serif;
+  letter-spacing: 0.5px;
+  transform: scaleY(1);
+  /* W3C */
+  -webkit-transform: scaleY(1);
+  /* Safari and Chrome */
+  -moz-transform: scaleY(1);
+  /* Firefox */
+  -ms-transform: scaleY(1);
+  /* IE 9 */
+  -o-transform: scaleY(1);
+  /* Opera */
 }
-
 .intro-condensed-light {
-    font-family: "IntroCondensedLight", sans-serif;
-    letter-spacing: 0.5px;
-    transform: scaleY(1);
-    /* W3C */
-    -webkit-transform: scaleY(1);
-    /* Safari and Chrome */
-    -moz-transform: scaleY(1);
-    /* Firefox */
-    -ms-transform: scaleY(1);
-    /* IE 9 */
-    -o-transform: scaleY(1);
-    /* Opera */
+  font-family: "IntroCondensedLight", sans-serif;
+  letter-spacing: 0.5px;
+  transform: scaleY(1);
+  /* W3C */
+  -webkit-transform: scaleY(1);
+  /* Safari and Chrome */
+  -moz-transform: scaleY(1);
+  /* Firefox */
+  -ms-transform: scaleY(1);
+  /* IE 9 */
+  -o-transform: scaleY(1);
+  /* Opera */
 }
-
 .header-font-dark {
-    font-family: "IntroCondensedBlack", sans-serif;
-    letter-spacing: 0.5px;
-    transform: scaleY(1);
-    /* W3C */
-    -webkit-transform: scaleY(1);
-    /* Safari and Chrome */
-    -moz-transform: scaleY(1);
-    /* Firefox */
-    -ms-transform: scaleY(1);
-    /* IE 9 */
-    -o-transform: scaleY(1);
-    /* Opera */
-    font-size: 18pt;
-    color: #1f1f1f;
+  font-family: "IntroCondensedBlack", sans-serif;
+  letter-spacing: 0.5px;
+  transform: scaleY(1);
+  /* W3C */
+  -webkit-transform: scaleY(1);
+  /* Safari and Chrome */
+  -moz-transform: scaleY(1);
+  /* Firefox */
+  -ms-transform: scaleY(1);
+  /* IE 9 */
+  -o-transform: scaleY(1);
+  /* Opera */
+  font-size: 18pt;
+  color: #1f1f1f;
 }
-
 .header-font-light {
-    font-family: "IntroCondensedBlack", sans-serif;
-    letter-spacing: 0.5px;
-    transform: scaleY(1);
-    /* W3C */
-    -webkit-transform: scaleY(1);
-    /* Safari and Chrome */
-    -moz-transform: scaleY(1);
-    /* Firefox */
-    -ms-transform: scaleY(1);
-    /* IE 9 */
-    -o-transform: scaleY(1);
-    /* Opera */
-    font-size: 18pt;
-    color: #ffffff;
+  font-family: "IntroCondensedBlack", sans-serif;
+  letter-spacing: 0.5px;
+  transform: scaleY(1);
+  /* W3C */
+  -webkit-transform: scaleY(1);
+  /* Safari and Chrome */
+  -moz-transform: scaleY(1);
+  /* Firefox */
+  -ms-transform: scaleY(1);
+  /* IE 9 */
+  -o-transform: scaleY(1);
+  /* Opera */
+  font-size: 18pt;
+  color: #ffffff;
 }
-
 .h1-font-accent {
-    font-family: "IntroCondensedBlack", sans-serif;
-    letter-spacing: 0.5px;
-    transform: scaleY(1);
-    /* W3C */
-    -webkit-transform: scaleY(1);
-    /* Safari and Chrome */
-    -moz-transform: scaleY(1);
-    /* Firefox */
-    -ms-transform: scaleY(1);
-    /* IE 9 */
-    -o-transform: scaleY(1);
-    /* Opera */
-    font-size: 46pt;
-    line-height: 66pt;
-    color: #fdd41e;
+  font-family: "IntroCondensedBlack", sans-serif;
+  letter-spacing: 0.5px;
+  transform: scaleY(1);
+  /* W3C */
+  -webkit-transform: scaleY(1);
+  /* Safari and Chrome */
+  -moz-transform: scaleY(1);
+  /* Firefox */
+  -ms-transform: scaleY(1);
+  /* IE 9 */
+  -o-transform: scaleY(1);
+  /* Opera */
+  font-size: 46pt;
+  line-height: 66pt;
+  color: #fdd41e;
 }
-
 .h1-font-thin {
-    font-family: "IntroCondensedLight", sans-serif;
-    letter-spacing: 0.5px;
-    transform: scaleY(1);
-    /* W3C */
-    -webkit-transform: scaleY(1);
-    /* Safari and Chrome */
-    -moz-transform: scaleY(1);
-    /* Firefox */
-    -ms-transform: scaleY(1);
-    /* IE 9 */
-    -o-transform: scaleY(1);
-    /* Opera */
-    font-size: 46pt;
-    line-height: 66pt;
-    color: #ffffff;
+  font-family: "IntroCondensedLight", sans-serif;
+  letter-spacing: 0.5px;
+  transform: scaleY(1);
+  /* W3C */
+  -webkit-transform: scaleY(1);
+  /* Safari and Chrome */
+  -moz-transform: scaleY(1);
+  /* Firefox */
+  -ms-transform: scaleY(1);
+  /* IE 9 */
+  -o-transform: scaleY(1);
+  /* Opera */
+  font-size: 46pt;
+  line-height: 66pt;
+  color: #ffffff;
 }
-
 @font-face {
-    font-family: "IntroCondensedLight";
-    src: url("../fonts/IntroCondensedLight/IntroCondensedLight.eot");
-    src: url("../fonts/IntroCondensedLight/IntroCondensedLight.eot?#iefix") format("embedded-opentype"), url("../fonts/IntroCondensedLight/IntroCondensedLight.woff") format("woff"), url("../fonts/IntroCondensedLight/IntroCondensedLight.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
+  font-family: "IntroCondensedLight";
+  src: url("../fonts/IntroCondensedLight/IntroCondensedLight.eot");
+  src: url("../fonts/IntroCondensedLight/IntroCondensedLight.eot?#iefix") format("embedded-opentype"), url("../fonts/IntroCondensedLight/IntroCondensedLight.woff") format("woff"), url("../fonts/IntroCondensedLight/IntroCondensedLight.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
 }
-
 @font-face {
-    font-family: "IntroCondensedBlack";
-    src: url("../fonts/IntroCondensedBlack/IntroCondensedBlack.eot");
-    src: url("../fonts/IntroCondensedBlack/IntroCondensedBlack.eot?#iefix") format("embedded-opentype"), url("../fonts/IntroCondensedBlack/IntroCondensedBlack.woff") format("woff"), url("../fonts/IntroCondensedBlack/IntroCondensedBlack.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
+  font-family: "IntroCondensedBlack";
+  src: url("../fonts/IntroCondensedBlack/IntroCondensedBlack.eot");
+  src: url("../fonts/IntroCondensedBlack/IntroCondensedBlack.eot?#iefix") format("embedded-opentype"), url("../fonts/IntroCondensedBlack/IntroCondensedBlack.woff") format("woff"), url("../fonts/IntroCondensedBlack/IntroCondensedBlack.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
 }
-
 div.language-selector {
-    text-align: right;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 0;
-    font-family: "IntroCondensedLight", sans-serif;
-    letter-spacing: 0.5px;
-    transform: scaleY(1);
-    /* W3C */
-    -webkit-transform: scaleY(1);
-    /* Safari and Chrome */
-    -moz-transform: scaleY(1);
-    /* Firefox */
-    -ms-transform: scaleY(1);
-    /* IE 9 */
-    -o-transform: scaleY(1);
-    /* Opera */
-    font-size: 12pt;
-    color: #ffffff;
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 0;
+  font-family: "IntroCondensedLight", sans-serif;
+  letter-spacing: 0.5px;
+  transform: scaleY(1);
+  /* W3C */
+  -webkit-transform: scaleY(1);
+  /* Safari and Chrome */
+  -moz-transform: scaleY(1);
+  /* Firefox */
+  -ms-transform: scaleY(1);
+  /* IE 9 */
+  -o-transform: scaleY(1);
+  /* Opera */
+  font-size: 12pt;
+  color: #ffffff;
 }
-
 div.language-selector span.symbols {
-    font-family: sans-serif;
+  font-family: sans-serif;
 }
-
 div.language-selector span.accent {
-    font-family: "IntroCondensedBlack", sans-serif;
-    letter-spacing: 0.5px;
-    transform: scaleY(1);
-    /* W3C */
-    -webkit-transform: scaleY(1);
-    /* Safari and Chrome */
-    -moz-transform: scaleY(1);
-    /* Firefox */
-    -ms-transform: scaleY(1);
-    /* IE 9 */
-    -o-transform: scaleY(1);
-    /* Opera */
-    color: #fdd41e;
+  font-family: "IntroCondensedBlack", sans-serif;
+  letter-spacing: 0.5px;
+  transform: scaleY(1);
+  /* W3C */
+  -webkit-transform: scaleY(1);
+  /* Safari and Chrome */
+  -moz-transform: scaleY(1);
+  /* Firefox */
+  -ms-transform: scaleY(1);
+  /* IE 9 */
+  -o-transform: scaleY(1);
+  /* Opera */
+  color: #fdd41e;
 }
-
 .full {
-    background: url("../img/background.png") no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+  background: url("../img/background.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
-
 .top-pad {
-    margin-top: 50px;
+  margin-top: 50px;
 }
-
 .navbar-default {
-    background-color: #fdd41e;
-    border-color: transparent;
-    padding: 20px 0;
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    border-radius: 0;
+  background-color: #fdd41e;
+  border-color: transparent;
+  padding: 20px 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
 }
-
 .navbar-default .navbar-brand img {
-    width: 114px;
-    height: 72px;
-    margin-top: -22px;
+  width: 114px;
+  height: 72px;
+  margin-top: -22px;
 }
-
 .navbar-default .nav li a {
-    font-family: "IntroCondensedBlack", sans-serif;
-    letter-spacing: 0.5px;
-    transform: scaleY(1);
-    /* W3C */
-    -webkit-transform: scaleY(1);
-    /* Safari and Chrome */
-    -moz-transform: scaleY(1);
-    /* Firefox */
-    -ms-transform: scaleY(1);
-    /* IE 9 */
-    -o-transform: scaleY(1);
-    /* Opera */
-    font-size: 18pt;
-    color: #1f1f1f;
+  font-family: "IntroCondensedBlack", sans-serif;
+  letter-spacing: 0.5px;
+  transform: scaleY(1);
+  /* W3C */
+  -webkit-transform: scaleY(1);
+  /* Safari and Chrome */
+  -moz-transform: scaleY(1);
+  /* Firefox */
+  -ms-transform: scaleY(1);
+  /* IE 9 */
+  -o-transform: scaleY(1);
+  /* Opera */
+  font-size: 18pt;
+  color: #1f1f1f;
 }
-
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
-    background-color: transparent;
+  background-color: transparent;
 }
-
 .navbar-default .nav li.active a {
-    background-color: transparent;
-    color: #1f1f1f;
+  background-color: transparent;
+  color: #1f1f1f;
 }
-
 .navbar-default .nav li.active a:hover,
 .navbar-default .nav li.active a:focus {
-    background-color: transparent;
-    color: #1f1f1f;
+  background-color: transparent;
+  color: #1f1f1f;
 }
-
 .greeting {
-    font-family: "IntroCondensedLight", sans-serif;
-    letter-spacing: 0.5px;
-    transform: scaleY(1);
-    /* W3C */
-    -webkit-transform: scaleY(1);
-    /* Safari and Chrome */
-    -moz-transform: scaleY(1);
-    /* Firefox */
-    -ms-transform: scaleY(1);
-    /* IE 9 */
-    -o-transform: scaleY(1);
-    /* Opera */
-    font-size: 46pt;
-    line-height: 66pt;
-    color: #ffffff;
-    padding: 0;
+  font-family: "IntroCondensedLight", sans-serif;
+  letter-spacing: 0.5px;
+  transform: scaleY(1);
+  /* W3C */
+  -webkit-transform: scaleY(1);
+  /* Safari and Chrome */
+  -moz-transform: scaleY(1);
+  /* Firefox */
+  -ms-transform: scaleY(1);
+  /* IE 9 */
+  -o-transform: scaleY(1);
+  /* Opera */
+  font-size: 46pt;
+  line-height: 66pt;
+  color: #ffffff;
+  padding: 0;
 }
-
 .greeting span.accent {
-    font-family: "IntroCondensedBlack", sans-serif;
-    letter-spacing: 0.5px;
-    transform: scaleY(1);
-    /* W3C */
-    -webkit-transform: scaleY(1);
-    /* Safari and Chrome */
-    -moz-transform: scaleY(1);
-    /* Firefox */
-    -ms-transform: scaleY(1);
-    /* IE 9 */
-    -o-transform: scaleY(1);
-    /* Opera */
-    font-size: 46pt;
-    line-height: 66pt;
-    color: #fdd41e;
+  font-family: "IntroCondensedBlack", sans-serif;
+  letter-spacing: 0.5px;
+  transform: scaleY(1);
+  /* W3C */
+  -webkit-transform: scaleY(1);
+  /* Safari and Chrome */
+  -moz-transform: scaleY(1);
+  /* Firefox */
+  -ms-transform: scaleY(1);
+  /* IE 9 */
+  -o-transform: scaleY(1);
+  /* Opera */
+  font-size: 46pt;
+  line-height: 66pt;
+  color: #fdd41e;
 }
-
 .notification-block {
-    background-color: rgba(0, 0, 0, 0.2);
-    font-family: "IntroCondensedBlack", sans-serif;
-    letter-spacing: 0.5px;
-    transform: scaleY(1);
-    /* W3C */
-    -webkit-transform: scaleY(1);
-    /* Safari and Chrome */
-    -moz-transform: scaleY(1);
-    /* Firefox */
-    -ms-transform: scaleY(1);
-    /* IE 9 */
-    -o-transform: scaleY(1);
-    /* Opera */
-    font-size: 18pt;
-    color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.2);
+  font-family: "IntroCondensedBlack", sans-serif;
+  letter-spacing: 0.5px;
+  transform: scaleY(1);
+  /* W3C */
+  -webkit-transform: scaleY(1);
+  /* Safari and Chrome */
+  -moz-transform: scaleY(1);
+  /* Firefox */
+  -ms-transform: scaleY(1);
+  /* IE 9 */
+  -o-transform: scaleY(1);
+  /* Opera */
+  font-size: 18pt;
+  color: #ffffff;
 }
-
 .notification-block ul {
-    list-style-type: none;
+  list-style-type: none;
 }

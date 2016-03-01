@@ -1,7 +1,9 @@
 var gulp = require("gulp"),
     less = require("gulp-less"),
     gulpUtils = require("gulp-util"),
-    i18n = require('gulp-i18n-localize');
+    concat = require("gulp-concat"),
+    htmlmin = require("gulp-htmlmin"),
+    csso = require("gulp-csso");
 
 
 var makeOnError = function (module) {
@@ -11,11 +13,24 @@ var makeOnError = function (module) {
     }
 };
 
-gulp.task('default', ["build-css", "copy-bower", "copy-image", "localize"]);
+gulp.task('default', ["build-css", "copy-bower", 'concat', "copy-image", "copy-fonts", "copy-html"]);
 
 gulp.task('copy-bower', function () {
-    return gulp.src("bower_components/bootstrap/dist/css/bootstrap.min.css")
-        .pipe(gulp.dest('dist/css'));
+    return gulp.src("bower_components/bootstrap/dist/css/bootstrap.css")
+        .pipe(gulp.dest('css'));
+});
+
+gulp.task('build-css', function () {
+    return gulp.src('less/main.less')
+        .pipe(less().on('error', makeOnError("build-css")))
+        .pipe(gulp.dest('css'))
+});
+
+gulp.task('concat', function () {
+    return gulp.src('css/*.css')
+        .pipe(concat('style.min.css'))
+        .pipe(csso(false))
+        .pipe(gulp.dest('dist/css'))
 });
 
 gulp.task('copy-image', function () {
@@ -23,18 +38,15 @@ gulp.task('copy-image', function () {
         .pipe(gulp.dest('dist/img/'));
 });
 
-gulp.task('build-css', function () {
-    return gulp.src('less/*.less')
-        .pipe(less().on('error', makeOnError("build-css")))
-        .pipe(gulp.dest('dist/css'))
+gulp.task('copy-fonts', function () {
+    return gulp.src('fonts/**')
+        .pipe(gulp.dest('dist/fonts'))
 });
 
-gulp.task('localize', function () {
-    return gulp.src('./index.html')
-        .pipe(i18n({
-            localeDir: './locales'
-        }))
-        .pipe(gulp.dest('local'));
+gulp.task('copy-html', function () {
+    return gulp.src('index.html')
+        .pipe(htmlmin({collapseWhitespace: true}))
+        .pipe(gulp.dest('dist/'));
 });
 
 gulp.task('watch', function () {
