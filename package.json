@@ -4,6 +4,10 @@
   "description": "Main VolgaCTF Site",
   "author": "Aleksey Volkov",
   "license": "MIT",
+  "scripts": {
+    "bower": "bower",
+    "gulp": "gulp"
+  },
   "devDependencies": {
     "bower": "^1.7.7",
     "gulp": "^3.9.0",
