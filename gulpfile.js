@@ -34,7 +34,7 @@ gulp.task('concat', function () {
 });
 
 gulp.task('copy-image', function () {
-    return gulp.src('img/*')
+    return gulp.src('img/**')
         .pipe(gulp.dest('dist/img/'));
 });
 

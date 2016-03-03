@@ -135,6 +135,7 @@ div.language-selector span.symbols {
   font-family: sans-serif;
 }
 div.language-selector span.accent {
+  font-size: 12pt;
   font-family: "IntroCondensedBlack", sans-serif;
   letter-spacing: 0.5px;
   transform: scaleY(1);
